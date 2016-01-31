@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'sukhumvit-thin';
+  src: url('fonts/sukhumvit-thin.eot'); /* IE9 Compat Modes */
+  src: url('fonts/sukhumvit-thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/sukhumvit-thin.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/sukhumvit-thin.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/sukhumvit-thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/sukhumvit-thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'sukhumvit-text';
+  src: url('fonts/sukhumvit-text.eot'); /* IE9 Compat Modes */
+  src: url('fonts/sukhumvit-text.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/sukhumvit-text.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/sukhumvit-text.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/sukhumvit-text.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/sukhumvit-text.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'sukhumvit-bold';
+  src: url('fonts/sukhumvit-bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/sukhumvit-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/sukhumvit-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/sukhumvit-bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/sukhumvit-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/sukhumvit-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+body{
+	font-family: 'sukhumvit-text';
+}
+.text-thin{
+	font-family: 'sukhumvit-thin';
+}
+.text{
+	font-family: 'sukhumvit-text';
+}
+.text-bold{
+	font-family: 'sukhumvit-bold';
+}
